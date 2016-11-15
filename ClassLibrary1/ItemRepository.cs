@@ -54,6 +54,9 @@ namespace _CheckStock
                 {
                     wareList.Remove(item);
                     wareList.Add(ware);
+                    //item.Price = ware.GetPrice(); //Virker ikke hvis man bruger interface
+                    //item.Designation = ware.GetDesignation(); //Virker ikke hvis man bruger interface
+                    break;
                 }
             }
         }
