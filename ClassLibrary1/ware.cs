@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace _CheckStock
+namespace _PrettyHairSolution
 {
     public interface Iware
     {

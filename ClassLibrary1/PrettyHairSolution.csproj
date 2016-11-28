@@ -40,7 +40,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Costumer.cs" />
+    <Compile Include="CostumerRepository.cs" />
     <Compile Include="ItemRepository.cs" />
+    <Compile Include="Order.cs" />
+    <Compile Include="OrderLine.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="ware.cs" />
   </ItemGroup>
